@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Randomized Downtime Task Generator</title>
+</head>
+<body>
+
+  <!-- Application Logo Placeholder -->
+  <div>
+    <h1>[Application Logo Placeholder]</h1>
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#main" id="nav-main">Main Page</a> |
+    <a href="#manage" id="nav-manage">Manage Tasks</a> |
+    <a href="#about" id="nav-about">About</a>
+  </nav>
+
+  <hr>
+
+  <!-- Page View Containers (Barren semantic HTML) -->
+  <div id="view-main">
+    <!-- Rendered dynamically by MainView -->
+  </div>
+
+  <div id="view-manage" style="display: none;">
+    <!-- Rendered dynamically by ManageView -->
+  </div>
+
+  <div id="view-about" style="display: none;">
+    <!-- Rendered dynamically by AboutView -->
+  </div>
+
+  <!-- Data Models & Storage -->
+  <script src="js/models/Storage.js"></script>
+  <script src="js/models/TaskModel.js"></script>
+  <script src="js/models/HistoryModel.js"></script>
+
+  <!-- Views -->
+  <script src="js/views/MainView.js"></script>
+  <script src="js/views/ManageView.js"></script>
+  <script src="js/views/AboutView.js"></script>
+
+  <!-- Controllers -->
+  <script src="js/controllers/MainController.js"></script>
+  <script src="js/controllers/ManageController.js"></script>
+  <script src="js/controllers/AboutController.js"></script>
+
+  <!-- Router & Application Bootstrap -->
+  <script src="js/router.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>
