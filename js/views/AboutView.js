@@ -26,6 +26,8 @@
       if (!this.container) return;
 
       this.container.innerHTML = `
+
+        <img class="thumbnail" src="media/thumbnail1.jpg">
         <h2>About This Application</h2>
 
         <!-- Application Description Section -->
@@ -78,7 +80,7 @@
 
     _renderHistoryTable(history) {
       if (!history || history.length === 0) {
-        return '<p><em>No tasks have been completed yet. When you complete tasks on the Main Page, they will be recorded here!</em></p>';
+        return '<p><em>No tasks have been completed yet!</em></p>';
       }
 
       let rowsHtml = '';

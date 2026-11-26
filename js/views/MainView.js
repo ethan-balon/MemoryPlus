@@ -22,7 +22,7 @@
 
       this.container.innerHTML = `
         <h2>Downtime Task Generator</h2>
-        <p>Feeling downtime? Fetch a random task from your backlog to do right now!</p>
+        <p>Got some spare time on your hands? Fetch a random task from your backlog to do right now!</p>
 
         <!-- Center Generator Div -->
         <div id="generator-center-box">
