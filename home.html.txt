@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Placeholder page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to ethanbalon.link!!</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" class="selected">Home</a></li>
+            <li><a href="https://wordpresslab.ethanbalon.link">Wordpress Lab</a></li>
+            <li><a href="https://usability.ethanbalon.link">Usability Lab</a></li>
+	    <li><a href="https://django-tutorial.ethanbalon.link/admin/">Django Lab</a></li>
+        </ul>
+    </nav>    
+    <main>
+        <h2>About this website</h2>
+	<p>This website is part of a ARA Bachelors of ICT course relating to web development, any labs or assignments will be hosted here.</p>
+        <p>As for this page? This is simply a random page from a previous lab being used as a placeholder! Borris the cat from responsive css lives here now.</p>
+<h3 id="BLINKERSPAM">YA WANT SOME SPAM? </h3>
+<p><a href="https://davomcbones.github.io/server/birdandfish/index.html">My ancient as website for an NCEA assessment 2 years ago lol</a></p>
+<p><a href="https://ethan-balon.github.io/AIRPORT/">A New Zealand flight locator</a>. A personal project of mine using free API services (idk if it still works though)</p>
+<p><a href="https://ethan-balon.github.io/TreeSpotter/">TreeSpotter Web Application</a>Interactive media assessment</p>
+<p>I BUILT THE STADIUM HEHEHEHE!! Well only part of it atleast lol such as setting up the network switches and routers, <a href="https://drive.google.com/drive/u/2/folders/1izYTjT94HV1_sbxryvypHLucmqMqA-TT">heres some cool photos I took!!</a></p>
+<h3>MORE SPAM FROM THIS PLACEHOLDER PAGE!!</h3>
+        <p>This example shows a simple layout change from a single-column to two columns when the viewport (window) is wide enough to fit two columns. Notice that the layout code for the single column occurs first and is not in a media query - this makes the single column the 'default' layout. This is a good approach because browsers that don't understand media queries and/or grid (such as Internet Explorer until recently) can still display the single-column layout. At the bottom of this stylesheet there is a media query that tests the width of the viewport and contains the grid layout.</p>
+        <p>Check what happens when you change the width of the browser window from very narrow to very wide when you are viewing the web page.</p>
+        <p>The default layout (before any media queries take effect) is a single-column layout with the principal structural elements as blocks in normal flow. That is: the header, main, and aside are allowed to take their normal positions one after the other down the window. We don't need a grid or other layout CSS for this.</p>
+        
+        <p>Why is there a picture of a cute kitten on a web page about responsive design? I don't know.</p>
+    </main>
+    
+    <aside>
+        <h2>Meet Boris!</h2>
+        <p>Boris says: </p>
+	<p>"Hewoo!! The IP address for this website is 15.134.203.18!"</p>
+        <img src="https://lh3.googleusercontent.com/d/19qoUhD_Dvdl2HZV6-ExMdQQFcpf3XLdn" alt="boris">
+    </aside>
+    
+    <footer>
+        <p>Created for Ara, edited by Ethan Balon, 2026.</p>
+    </footer>
+</body>
+</html>
